@@ -1,0 +1,14 @@
+# Minimum versions rather than exact pins, so pip can pick releases that ship
+# prebuilt wheels for whatever Python you're on (3.11+).
+fastapi>=0.115
+uvicorn[standard]>=0.34
+sqlalchemy>=2.0.36
+pydantic[email]>=2.11
+pydantic-settings>=2.7
+PyJWT>=2.10
+bcrypt>=4.2
+python-multipart>=0.0.20
+
+# dev / test
+pytest>=8.3
+httpx>=0.28
